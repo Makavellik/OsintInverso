@@ -261,6 +261,138 @@ Interpreta.
 Y se va.
 
 ---
+🧠 CÓMO EJECUTAR Y USAR OSINTINVERSO
+🧩 Requisitos
+
+OsintInverso fue pensado para claridad y control, no para setups caóticos.
+
+Python 3.9+
+
+
+Dependencias:
+
+requests
+
+dnspython
+
+ssl / socket
+
+tldextract
+
+whois
+
+Instalación típica:
+
+pip install -r requirements.txt
+
+🚀 Ejecución básica
+python osintinverso.py example.com
+
+
+Eso es todo.
+Sin flags obligatorios.
+Sin ruido.
+Sin modos agresivos.
+
+Una entrada. Una lectura. Un veredicto contextual.
+
+🎛️ Uso conceptual (cómo se debe usar)
+
+OsintInverso no se usa como scanner, se usa como lente.
+
+Flujo mental recomendado:
+
+Ejecutas la tool
+
+Lees el output completo (no solo el score)
+
+Interpretas las correlaciones
+
+Tomas decisiones fuera de la herramienta
+
+OsintInverso no decide por ti.
+Te devuelve contexto.
+
+🧠 Qué hace al ejecutarse (internamente)
+
+Cuando lanzas OsintInverso:
+
+🧬 Normaliza el dominio (sin asumir nada)
+
+🌐 Analiza HTTP (headers como señales, no checklist)
+
+🌍 Resuelve DNS y detecta coherencia / ruido
+
+🔐 Inspecciona TLS y fingerprints
+
+🛰️ Correlaciona ASN + proveedor
+
+🧠 Aplica heurísticas propias
+
+📊 Calcula Trust Score interpretativo
+
+🧾 Genera lectura inversa final
+
+Todo pasivo.
+Todo sin interacción invasiva.
+
+📊 Interpretación del Trust Score
+
+El Trust Score (0–100) no es reputación.
+
+80–100 → Infra madura, coherente, consciente
+
+60–79 → Infra funcional con deuda técnica
+
+40–59 → Señales de improvisación o automatización ciega
+
+<40 → Caos, exposición o abandono
+
+⚠️ Importante:
+
+Un score bajo no significa vulnerable
+Significa interesante de entender
+
+🧠 Modo correcto de uso (regla de oro)
+
+❌ No ejecutes OsintInverso en masa
+❌ No lo uses para “cazar rápido”
+❌ No ignores las notas narrativas
+
+✅ Úsalo antes de cualquier auditoría
+✅ Úsalo para decidir si vale la pena seguir
+✅ Úsalo como brújula, no como arma
+
+🧬 IDENTIDAD VISUAL COMPLETA — OSINTINVERSO
+🎨 Paleta de colores (ADN visual)
+
+Primarios
+
+🩸 #FF0055 → Señal / decisión / ruptura
+
+🧠 #00FFD5 → Correlación / lectura / claridad
+
+🌑 #0A0A14 → Silencio / fondo / ética
+
+Secundarios
+
+🧬 #7C4DFF → Heurísticas / abstracción
+
+⚙️ #AAAAAA → Infraestructura / neutralidad
+
+🕶️ #374151 → Profesional / defensivo
+
+🧠 Frases núcleo (no slogans, principios)
+
+“La infraestructura siempre habla.”
+
+“El ruido distrae. La lectura revela.”
+
+“Menos datos. Más significado.”
+
+“Observar no deja huella.”
+
+“Contexto antes que acción.”
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=18&pause=850&color=7C4DFF&center=true&vCenter=true&width=760&lines=APPLYING+HEURISTICS...;CORRELATING+LAYERS...;NORMALIZING+SIGNALS...;GENERATING+CONTEXT" />
